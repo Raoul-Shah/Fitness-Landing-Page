@@ -88,3 +88,30 @@ header .navigation li a:hover {
     font-weight: 500;
     letter-spacing: 1px;
 }
+
+.socialMedia {
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+}
+
+.socialMedia li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialMedia li a {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    filter: invert(1);
+    transform: scale(0.5);
+}
+
+@media (max-widt: 991px) {
+
+    
+
+}
